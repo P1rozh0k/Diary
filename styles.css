@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    display: flex;
+}
+
+.lessons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lessons__name {
+    font-family: Verdana;
+}
+
+.lessons__list {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding: 0px;
+    list-style: none;
+    width: 255px;
+}
+
+.lessons__list li {
+    font-family: Verdana;
+    text-transform: uppercase;
+    outline-style: solid;
+    outline-width: 1px;
+    padding: 2px;
+    padding-right: 10px;
+    min-height: 20px;
+}
+
+    .lessons__list li a {
+        text-decoration: none;
+        color: black;
+        font-size: 16px;
+    }
+
+    .lessons__list li a:hover {
+        font-weight: bold;
+        font-size: 15.4px;
+    }
